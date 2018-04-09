@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>Administrador-Home Installation</title>
+	<link rel="icon" type="image/png" href="../img/favicon.png">
+	<link href="https://fonts.googleapis.com/css?family=Poppins:100,300,400,500,700" rel="stylesheet">
+	<link rel="stylesheet" href="../../css/cuentas.css">
+	<link rel="stylesheet" href="../../css/font-awesome.min.css">
+</head>
+<body>
+<!-- formulario clase diseño -->
+<div class="clientes">
+		<h1>Usuarios Registrados</h1>
+	</div>
+	<div class="tab">
+	  <button class="tablinks" onclick="mostrarCliente(event, 'cliente1')" id="defaultOpen">Andrés Barreto</button>
+	  <button class="tablinks" onclick="mostrarCliente(event, 'cliente2')">Steven Vargas</button>
+	  <button class="tablinks" onclick="mostrarCliente(event, 'cliente3')">Yesid Martinez</button>
+	</div>
+
+<div id="cliente1" class="tabcontent">
+  
+  <div class="container-form">
+				<form action="" class="form">
+					<div class="head">
+						<h1>Modificar Usuario</h1>
+					</div>
+					<div class="form-body">
+						<div>
+							<label for="name">Nombres*</label>
+							<input class="form-input" type="text" id="name" placeholder="Nombre" required="" autocomplete="none" value="Andrés">
+						</div>
+						<div>
+							<label for="lastName">Apellidos*</label>
+							<input class="form-input" type="text" id="lastName" placeholder="Apellidos" required="" value="Barreto">
+						</div>
+						<div>
+							<label for="document">Cédula*</label>
+							<input class="form-input" type="text" id="document" placeholder="Número cédula" required="" value="98765467">
+						</div>
+						<div>
+							<label for="address">Dirección*</label>
+							<input class="form-input" type="text" id="address" placeholder="Dirección" required="" value="suba suba">
+						</div>
+						<div>
+							<label for="phone">Teléfono*</label>
+							<input class="form-input" type="text" id="phone" placeholder="Número telefónico" required="" value="2345432">
+						</div>
+						<div>
+							<label for="mail">Correo*</label>
+							<input class="form-input" type="email" id="mail" placeholder="Correo Electrónico" required value="barretoa@homeinstall.co">
+						</div>
+						<div>
+							<label for="password">Contraseña*</label>
+							<input class="form-input" type="password" id="password" placeholder="Contraseña" required value="*********">
+						</div>
+						<div>
+							<label for="confirmPassword">Confirmar Contraseña*</label>
+							<input class="form-input" type="password" id="confirmPassword" placeholder="Contraseña" required value="*******">
+						</div>
+						<div>
+							<label for="cargo">Cargo*</label>
+								<select name="cargo">
+								    <option value="Producto">Seleccionar</option>
+								    <option value="#">Administrador</option>
+								    <option value="#">Diseñador</option>
+								    <option value="#">Técnico</option>
+								    <option value="#"></option>
+							  </select>
+						</div>
+					</div>
+					<div class="form-buttons">
+						<!-- <input type="submit" value="enviar"  class="button-style" > -->
+						<a href="admin.html" class="button-style">Guardar</a>
+						<a href="admin.html" class="button-cancel">Cancelar</a>
+						<a href="admin.html" class="button-delete">Eliminar cuenta</a>
+					</div>
+				
+				</form>
+		</div>
+</div>
+
+<div id="cliente2" class="tabcontent">
+  <div class="container-form">
+				<form action="" class="form">
+					<div class="head">
+						<h1>Modificar Usuario</h1>
+					</div>
+					<div class="form-body">
+						<div>
+							<label for="name">Nombres*</label>
+							<input class="form-input" type="text" id="name" placeholder="Nombre" required="" autocomplete="none" value="Steven">
+						</div>
+						<div>
+							<label for="lastName">Apellidos*</label>
+							<input class="form-input" type="text" id="lastName" placeholder="Apellidos" required="" value="Vargas">
+						</div>
+						<div>
+							<label for="document">Cédula*</label>
+							<input class="form-input" type="text" id="document" placeholder="Número cédula" required="" value="123456543">
+						</div>
+						<div>
+							<label for="address">Dirección*</label>
+							<input class="form-input" type="text" id="address" placeholder="Dirección" required="" value="candelaria ">
+						</div>
+						<div>
+							<label for="phone">Teléfono*</label>
+							<input class="form-input" type="text" id="phone" placeholder="Número telefónico" required="" value="345654">
+						</div>
+						<div>
+							<label for="mail">Correo*</label>
+							<input class="form-input" type="email" id="mail" placeholder="Correo Electrónico" required value="vargas@homeinstall.co">
+						</div>
+						<div>
+							<label for="password">Contraseña*</label>
+							<input class="form-input" type="password" id="password" placeholder="Contraseña" required value="***********">
+						</div>
+						<div>
+							<label for="confirmPassword">Confirmar Contraseña*</label>
+							<input class="form-input" type="password" id="confirmPassword" placeholder="Contraseña" required value="*********">
+						</div>
+						<label for="cargo">Cargo*</label>
+							<select name="cargo">
+							    <option value="Producto">Seleccionar</option>
+							    <option value="#">Administrador</option>
+							    <option value="#">Diseñador</option>
+							    <option value="#">Técnico</option>
+							    <option value="#"></option>
+						  </select>
+					</div>
+					<div class="form-buttons">
+						<!-- <input type="submit" value="enviar"  class="button-style" > -->
+						<a href="admin.html" class="button-style">Guardar</a>
+						<a href="admin.html" class="button-cancel">Cancelar</a>
+						<a href="admin.html" class="button-delete">Eliminar cuenta</a>
+					</div>
+				
+				</form>
+		</div>
+	</div>
+</div>
+
+<div id="cliente3" class="tabcontent">
+  <div class="container-form">
+				<form action="" class="form">
+					<div class="head">
+						<h1>Modificar Usuario</h1>
+					</div>
+					<div class="form-body">
+						<div>
+							<label for="name">Nombres*</label>
+							<input class="form-input" type="text" id="name" placeholder="Nombre" required="" autocomplete="none" value="Yesid">
+						</div>
+						<div>
+							<label for="lastName">Apellidos*</label>
+							<input class="form-input" type="text" id="lastName" placeholder="Apellidos" required="" value="Martinez">
+						</div>
+						<div>
+							<label for="document">Cédula*</label>
+							<input class="form-input" type="text" id="document" placeholder="Número cédula" required="" value="45678733">
+						</div>
+						<div>
+							<label for="address">Dirección*</label>
+							<input class="form-input" type="text" id="address" placeholder="Dirección" required="" value="lost lost">
+						</div>
+						<div>
+							<label for="phone">Teléfono*</label>
+							<input class="form-input" type="text" id="phone" placeholder="Número telefónico" required="" value="9876543">
+						</div>
+						<div>
+							<label for="mail">Correo*</label>
+							<input class="form-input" type="email" id="mail" placeholder="Correo Electrónico" required value="martinez@homeinstall.co">
+						</div>
+						<div>
+							<label for="password">Contraseña*</label>
+							<input class="form-input" type="password" id="password" placeholder="Contraseña" required value="*******">
+						</div>
+						<div>
+							<label for="confirmPassword">Confirmar Contraseña*</label>
+							<input class="form-input" type="password" id="confirmPassword" placeholder="Contraseña" required value="*******">
+						</div>
+						<div>
+							<label for="cargo">Cargo*</label>
+							<select name="cargo">
+							    <option value="Producto">Seleccionar</option>
+							    <option value="#">Administrador</option>
+							    <option value="#">Diseñador</option>
+							    <option value="#">Técnico</option>
+							    <option value="#"></option>
+						  </select>
+						</div>
+					</div>
+					<div class="form-buttons">
+						<!-- <input type="submit" value="enviar"  class="button-style" > -->
+						<a href="admin.html" class="button-style">Guardar</a>
+						<a href="admin.html" class="button-cancel">Cancelar</a>
+						<a href="admin.html" class="button-delete">Eliminar cuenta</a>
+					</div>
+				
+				</form>
+		</div>
+	</div>
+</div>
+
+
+
+
+		
+<script src="../../js/main.js"></script>
+</body>
+</html>

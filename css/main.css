@@ -1,0 +1,424 @@
+*{
+	box-sizing: border-box;
+	margin: 0; 
+	padding: 0;
+}
+
+body{
+	font-family: 'Poppins', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+	color: #313131;
+}
+		/*estilos del encabezado*/
+.header{
+	background-color: ##F7F6F6;
+}
+.container-menu{
+	position: absolute;
+    padding: 10px;
+    height: auto;
+    background: transparent;
+    width: 100%;
+}
+.container-menu:hover{
+    background: rgba(0,0,0,.8);
+    transition: 2.5s;
+}
+.logo {
+	position: relative;
+	display: inline-block;
+	margin-left: 5%;
+}
+.acceso{
+	position: absolute;
+	display: inline-block;
+	/*background-color: red;*/
+	margin-top: 20px;
+	margin-left: 5%;
+	font-weight: bolder;
+	text-transform: capitalize;
+}
+.acceso a{
+	color: #fff;
+	text-decoration: none;
+}
+.acceso a:hover{
+	width: 100%;
+	height: 30px;
+	color: #08e950;
+}
+.menu{
+	position: absolute;
+	display: inline-block;
+	/*background-color: yellow;*/
+	margin-left: 25%;
+}
+	ul{
+		padding: 10px;
+	}
+
+	li {
+		display: inline-block;
+		list-style-type: none;
+		padding: 10px;
+		text-transform: capitalize;
+		color: #FFF;
+		font-weight: 600;
+	} 
+	.menu li:hover{
+		color: #08e950;
+		font-weight: 600;
+	}
+.banner{
+	background-image: url(../img/tools.jpg);
+	background-position: center;
+	background-size: cover;
+	height: 100vh;
+}
+	.titulo-banner{
+	    margin: auto;
+	    padding: 30px;
+	    position: absolute;
+	    width: 100%;
+	    top: 250px;
+	    text-align: center;
+	}
+	.titulo-banner h1{
+		font-size: 2em;
+		color: #fff;
+		text-align: center;
+		
+	}
+	.deg{
+	background-color: rgba(0,0,0,.4);
+	background-position: center;
+	background-size: cover;
+	height: 100vh;
+	}
+	
+	/*estilos seccion servicios*/
+
+.container-servicios{
+	padding: 30px;
+	height: auto;
+	margin: 30px ;
+}
+.box-services{
+	padding: 10px;
+	margin-top: 50px;
+	background-color: ;
+}
+.descripcion-servicios{
+	text-align: center;
+	margin-bottom: 30px;
+	margin-top: -15px;
+	}
+	.descripcion-servicios h2{
+		margin-bottom: 30px;
+		color: #323232;
+	}
+	.descripcion-servicios p{
+		font-weight: 400;
+		color: #323232;
+		line-height: 1.5;
+	}
+.servicios{
+	width: 370px;
+	height: auto;
+	display: inline-block;
+	padding: 15px;
+	/*box-shadow: 0 0 2px 1px;*/
+	margin-bottom: 20px;
+
+}
+
+.espacio{
+	margin-right: 25px;
+}
+.degradado{
+	width: 350px;
+	height:235px;
+	background-color: rgba(0,0,0,.2);
+	position: absolute;
+	margin-left:-5px;
+	border-radius: 10px;
+}
+.services-title{
+	width: 300px;
+    height: auto;
+    margin: -140px 0px 0px 20px;
+    background-color: rgba(0,0,0,.4);
+    text-align: center;
+    position: absolute;
+    padding: 6px;
+}
+	.services-title span{
+		color: #fafafa;
+		text-transform: uppercase;
+		line-height: 1.4;
+	}
+.imagen-serv{
+	width: 350px;
+	height: 237px;
+	margin-left: -5px;
+	border-radius: 10px;
+}
+.boton-mas{
+	width: 360px;
+	height: 70px;
+	/*background-color: green;*/
+}
+	.btn{
+		font-size: 16px;
+		text-decoration: none;
+		color:white;
+		background-color: #00A2FF;
+		position: relative;padding: 10px;
+		margin: 20px 0px 10px;
+		margin-left: 35%;
+		border-radius: 8px;
+		border-style: none;
+
+	}
+	.btn:hover{
+		background-color: #5BC2FD;
+		color: #111; 
+	}
+
+
+
+
+
+/*estilos formularios*/
+
+.formulario{
+	margin-top: 5rem;
+	margin-left: 450px;
+	display: inline-block;
+	
+}
+
+.container-form{
+	width: 400px;
+	height: auto;
+	background-color: #fafafa;
+	position: absolute;
+	padding: 30px 20px;
+	box-shadow: 0px 0px 3px grey;
+}
+.container-form .form{
+	text-align: center;
+}
+label{
+	display: inline-block;
+	width: 30%;
+	text-align: left;
+	padding: 15px;
+}
+.head{
+	text-align: center;
+	margin-bottom: 2rem;
+}
+.form-input{
+	width: 60%;
+	height: 30px;
+    border-radius: 10px;
+    border:none;
+    border-bottom: 2px solid #14B3B1;
+    outline:none;
+}
+
+.button-style{
+	background: #04dead;
+    width: 70px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    color: #fafafa;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 600;
+    text-decoration: none;
+}
+.form-buttons{
+	    margin: 25px 0px 0px ;
+}
+.form-body div span{
+	color: red;
+}
+.cambio-datos{
+	margin-top: 1.6em;
+}
+.cambio-datos a{
+	text-decoration: none;
+	color: #20b6b4;
+}
+.cambio-datos a:hover{
+	color: #202021;
+}
+
+
+/* fin estilos formulario*/
+
+/*estilos paginas de error*/
+.container-errors{
+	float: right;
+    margin: 20px 30px 0px;
+    display: inline-block;
+}
+.container-errors a{
+	text-decoration: none;
+	color: #313131;
+	font-size: 1.3rem;
+	font-weight: 900;
+
+}
+.error404{
+	width: 50%;
+	height: 100vh;
+	padding: 10px;
+	float: right;
+	background-image: url(../img/worker_404.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.text-error{
+	width: 30%;
+	height: 100px;
+	margin:10% 0px 0px 10%;
+	position: absolute;
+}
+.text-error h1{
+	font-size: 13rem;
+	font-weight: 800;
+	line-height: 1.2;
+}
+.text-error span{
+	padding: 10px;
+    float: right;
+    clear: both;
+    margin: -40px 110px 0px 0px;
+}
+.error-nav{
+	float: right;
+	padding: 0px;
+}
+.error-nav li:hover{
+	color: #08e950;
+}
+.error500{
+	width: 500px;
+	height: 330px;
+	padding: 10px;
+	position: absolute;
+    right: 30%;
+    left: 30%;	background-image: url(../img/error500.png);
+	background-size: cover;
+	background-position: center;
+}
+.text-error500{
+	width: 390px;
+    height: 100px;
+    position: absolute;
+    margin:0px 0px 0px 0px;
+    top: 280px;
+    right: 36%;
+    left: 36%;
+}
+
+.text-error500 h1{
+	font-size: 11rem;
+	font-weight: 800;
+	line-height: 1.2;
+}
+.text-error500 span{
+	width: 400px;
+	font-size: 1.5rem;
+	font-weight: 500;
+	background-color: #6DF9D3;
+	padding: 10px;
+    /*text-align: center;*/
+}
+.error-nav500 li{
+	color: #202021;
+	
+	padding: 10px;
+}
+.error-nav500 li:hover{
+	color: #08e950;
+}
+/*estilos paginas de error*/
+.footer{
+	width: 100%;
+	height: auto;
+	padding: 20px;
+	text-align: center;
+	background-color: #252526;
+	color: #fafafa;
+}
+.footer p{
+	font-size: 12px;
+	line-height: 1.5;
+}
+
+/*estilos loader*/
+
+*,*:after, *:before{
+	margin:0;
+	padding:0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.container-load{
+	background-color: rgba(0,0,0,.9);
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	-webkit-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+	z-index: 1000;
+}
+.load{
+	
+	height: 100px;
+	width: 100px;
+	position: absolute;
+	top: 0.5;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin:auto;
+}
+	.load h1{
+	margin-top: -170px;
+    color: #fafafa;
+    margin-left: -20px;
+    font-weight: 100;
+	}
+.carga{
+	border: 15px solid #ccc;
+	border-top-color: #FAFAFA;
+	height: 100px;
+	width: 100px;
+	border-radius: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin:auto;
+	-webkit-animation: girar 1.5s  linear infinite;
+	-o-animation: girar 1.5s  linear infinite;
+	animation: girar 1.5s  linear infinite;
+}
+
+@keyframes girar{
+	from {transform:rotate(0deg);}
+	to {transform:rotate(360deg);}
+}
